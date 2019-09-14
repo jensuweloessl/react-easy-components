@@ -1,0 +1,27 @@
+{
+  "name": "react-easy-components",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "build:dev": "node_modules/.bin/webpack --config webpack.config.js",
+    "lint": "node_modules/.bin/tslint src/**/*.ts src/**/*.tsx",
+    "start": "node_modules/.bin/tsc -w"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "@types/react": "^16.9.2",
+    "@types/styled-components": "^4.1.19",
+    "styled-components": "^4.3.2",
+    "tslint": "^5.20.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.6.3"
+  }
+}

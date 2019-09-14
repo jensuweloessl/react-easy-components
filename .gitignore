@@ -1,0 +1,14 @@
+/.idea/dataSources
+/.idea/dataSources.*
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/tasks.xml
+/.idea/typescript-compiler.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+
+.vscode/
+
+node_modules/
+dist/
+build/
+*.log
